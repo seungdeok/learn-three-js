@@ -28,6 +28,7 @@ function init() {
   controls.minDistance = 5;
   controls.maxDistance = 100;
 
+  /** cube map texture */
   // // https://www.humus.name/index.php?page=Textures
   // const textureLoader = new THREE.TextureLoader().setPath(
   //   "assets/textures/Yokohama/"
@@ -61,6 +62,7 @@ function init() {
 
   // scene.add(mesh);
 
+  /** cube map texture */
   const cubeTextureLoader = new THREE.CubeTextureLoader().setPath(
     "assets/textures/Yokohama/"
   );
